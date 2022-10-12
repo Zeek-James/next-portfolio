@@ -63,7 +63,8 @@ export default function Home() {
 
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
               Software Developer providing services for building scalable and
-              responsive websites. Join me down below and let's get cracking!
+              responsive websites. Join me down below and let&apos;s get
+              cracking!
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
               <AiFillTwitterCircle />
@@ -79,8 +80,8 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">Services I offer</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Since the beginning of my journey as a developer, I've done remote
-              work for
+              Since the beginning of my journey as a developer, I&apos;ve done
+              remote work for
               <span className="text-teal-500"> companies </span>
               and collaborated with talanted people to create professional
               websites for both business and consumer use.
@@ -112,8 +113,8 @@ export default function Home() {
                 Code your dream project
               </h3>
               <p className="py-2">
-                Do you have an idea for your next great website? Let's make it a
-                reality.
+                Do you have an idea for your next great website? Let&apos;s make
+                it a reality.
               </p>
               <h4 className="py-4 text-teal-600">
                 {" "}
@@ -148,7 +149,7 @@ export default function Home() {
             <h3 className="text-3xl py-1 dark:text-white ">Portofolio</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               Since the beginning of my journey as a freelance designer and
-              developer, I've done remote work for
+              developer, I&apos;ve done remote work for
               <span className="text-teal-500"> agencies </span>
               consulted for <span className="text-teal-500">startups </span>
               and collaborated with talanted people to create digital products
