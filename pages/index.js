@@ -10,7 +10,7 @@ import deved from "../public/dev-ed-wave.png";
 import code from "../public/code.png";
 import design from "../public/design.png";
 import consulting from "../public/consulting.png";
-import Image from "next/image";
+import Image from "next/Image";
 import web1 from "../public/web1.png";
 import web2 from "../public/web2.png";
 import web3 from "../public/web3.png";
@@ -71,7 +71,7 @@ export default function Home() {
               <AiFillInstagram />
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={deved} layout="fill" objectFit="cover" />
+              <Image alt="title" src={deved} layout="fill" objectFit="cover" />
             </div>
           </div>
         </section>
@@ -91,7 +91,7 @@ export default function Home() {
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-              <Image src={design} width={100} height={100} />
+              <Image alt="title" src={design} width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2  text-teal-600">
                 Tools & Database{" "}
               </h3>
@@ -107,7 +107,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">MongoDB</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={code} width={100} height={100} />
+              <Image alt="title" src={code} width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2 ">
                 Code your dream project
               </h3>
@@ -127,7 +127,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">React-Bootstrap</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={consulting} width={100} height={100} />
+              <Image alt="title" src={consulting} width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2 text-teal-600">
                 Languages
               </h3>
@@ -162,6 +162,7 @@ export default function Home() {
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1 ">
               <Image
+                alt="title"
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
@@ -171,6 +172,7 @@ export default function Home() {
             </div>
             <div className="basis-1/3 flex-1">
               <Image
+                alt="title"
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
@@ -180,6 +182,7 @@ export default function Home() {
             </div>
             <div className="basis-1/3 flex-1">
               <Image
+                alt="title"
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
@@ -189,6 +192,7 @@ export default function Home() {
             </div>
             <div className="basis-1/3 flex-1">
               <Image
+                alt="title"
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
@@ -198,6 +202,7 @@ export default function Home() {
             </div>
             <div className="basis-1/3 flex-1">
               <Image
+                alt="title"
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
@@ -207,6 +212,7 @@ export default function Home() {
             </div>
             <div className="basis-1/3 flex-1">
               <Image
+                alt="title"
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
